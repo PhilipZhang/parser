@@ -2,12 +2,9 @@
 #include <stdio.h>
 #include "parser.h"
 
-int main(int argc, char** argv)
+int main()
 {
-	char str[100];
-	char result[300];
-	scanf("%s", str);
-	parse(str, result);
-	printf("%s", result);
+	printf("input the declaration\n");
+	parse();
 	return 0;
 }
